@@ -25,10 +25,10 @@
                     <div class="meta">
                         <div>
                             <img class="like-btn" src="./assets/heart.png" alt="">
-                            <span>123 likes</span>
+                            <span>{{post.likes}}</span>
                         </div>
                         <div>
-                            <span>2020/03/21</span>
+                            <span>{{post.date}}</span>
                             <img src="./assets/calendar.png" alt="">
                         </div>
                     </div>
@@ -40,6 +40,7 @@
 
     </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="./main.js"></script>
 </body>
