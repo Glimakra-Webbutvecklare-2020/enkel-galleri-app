@@ -1,0 +1,19 @@
+
+
+    
+
+main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px, 1fr));
+    grid-gap: 1rem;
+}
+main article{
+    border: 1px solid black;
+}
+main article img{
+    width: 100%;
+}
+header {
+    color: black;
+    background-color: dimgrey;
+}
